@@ -5,3 +5,28 @@ body{
     font-family: "Merriweather", serif;
 
 }
+*{
+   
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+/* banner section styles */
+.banner-container{
+    width: 1320px;
+    min-height: 600px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* background-image: url(../new-year-offer-resources-main/new-year-offer-resources-main/images/Banner\ Image.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/Banner\ Image.png);
+
+}
+
+.banner-content p,h1{
+    color: white;
+}
