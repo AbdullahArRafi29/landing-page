@@ -12,21 +12,52 @@ body{
     padding: 0;
 
 }
-/* banner section styles */
+/* banner section styles starts here */
 .banner-container{
-    width: 1320px;
+    max-width: 1320px;
     min-height: 600px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 20px;
+    background-color: rgba(0,0,0,0.5);
     /* background-image: url(../new-year-offer-resources-main/new-year-offer-resources-main/images/Banner\ Image.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(images/Banner\ Image.png);
+    background-blend-mode: overlay;
+    border-radius: 15px;
 
 }
 
 .banner-content p,h1{
     color: white;
+    /* font-size: 72px;
+    font-weight: 900;    */
+} 
+
+.banner-content{
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content p{
+    font-size: 32px;
+    font-weight: 400;   
+}
+.banner-content h1{
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* 65% section styles starts here */
+.second-section-container{
+    width: 802.9px;
+    height: 806px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 100px;
+    
 }
